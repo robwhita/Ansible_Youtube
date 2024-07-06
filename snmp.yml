@@ -5,7 +5,7 @@
 
   tasks:
    - name: Task 1 - Configure SNMP
-    ios_config:
+     ios_config:
         commands: 
           - snmp-server community PUBLIC RO
           - snmp-server community PRIVATE RW
